@@ -1,3 +1,5 @@
+1주차 : 사물인식을 다루기 위해 'CNN을 활용한 영상 기반의 화재 감지' 논문과 '혼자 공부하는 머신러닝+딥러닝'을 읽고 정리하며 **이미지를 위한 인공 신경망**인 **CNN**에 대한 개념을 공부하는 시간을 가졌습니다.
+
 ## 1. 딥러닝
 
 여러 비선형 변환 기법을 이용해서 학습 데이터에 대한 높은 수준의 추상화를 통해 데이터의 주요 특징들을 추출한 다음, 데이터 군집 및 분류를 수행하는 기계학습의 일종이다. 
@@ -13,9 +15,7 @@ CNN은 이미지 인식이나 영상 데이터를 처리할 때 주로 사용되
 ## 3. Convolution(합성곱) 동작 원리
 
 입력 데이터에 유용한 특성만 드러나도록 하는 것으로 필터(커널)가 입력 위를 이동하면서 출력을 만든다. 
-
-![하나의 채널에 대한 합성곱 계층의 동작 (그림 출처 : [https://untitledtblog.tistory.com/150](https://untitledtblog.tistory.com/150))](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/fbdb44b0-8979-45a5-b219-4d663fea023d/Untitled.png)
-
+![합성곱](https://user-images.githubusercontent.com/70934572/141668555-0793a1da-9f11-4e6e-9322-d6966d31e2dc.png)
 하나의 채널에 대한 합성곱 계층의 동작 (그림 출처 : [https://untitledtblog.tistory.com/150](https://untitledtblog.tistory.com/150))
 
 - 인공신경망 모델 훈련법
@@ -35,9 +35,7 @@ CNN은 이미지 인식이나 영상 데이터를 처리할 때 주로 사용되
         
 
 ## 4. CNN의 전체 구조
-
-![(그림 출처 :  [https://neocarus.tistory.com/entry/CNN의-구조](https://neocarus.tistory.com/entry/CNN%EC%9D%98-%EA%B5%AC%EC%A1%B0))](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/78963580-9e0a-4b45-adc1-032c7549f9a2/Untitled.png)
-
+![전체 CNN 구조](https://user-images.githubusercontent.com/70934572/141668564-8e99494f-2343-44bc-87f0-3f92fb209089.png)
 (그림 출처 :  [https://neocarus.tistory.com/entry/CNN의-구조](https://neocarus.tistory.com/entry/CNN%EC%9D%98-%EA%B5%AC%EC%A1%B0))
 
 합성곱 층과 풀링 층이 번갈아가면서 수행함으로써 학습 이미지나 영상으로부터 인식 대상의 특징을 자동으로 추출한다.
