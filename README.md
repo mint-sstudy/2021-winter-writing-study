@@ -29,4 +29,4 @@
 |[이미지를 위한 인공 신경망 - CNN](https://github.com/mint-sstudy/2021-winter-writing-study/blob/main/week1/%5B1%EC%A3%BC%EC%B0%A8%5D%20%EC%9D%B4%EB%AF%B8%EC%A7%80%EB%A5%BC%20%EC%9C%84%ED%95%9C%20%EC%9D%B8%EA%B3%B5%20%EC%8B%A0%EA%B2%BD%EB%A7%9D_CNN(Convolutional%20Neural%20Networks)%20%EC%95%8C%EC%95%84%EA%B0%80%EA%B8%B0.md)|김은서|
 |[나는 풍요로웠고 지구는 달라졌다를 읽고](https://github.com/mint-sstudy/2021-winter-writing-study/blob/main/week1/%EB%82%98%EB%8A%94%20%ED%92%8D%EC%9A%94%EB%A1%9C%EC%9B%A0%EA%B3%A0%20%EC%A7%80%EA%B5%AC%EB%8A%94%20%EB%8B%AC%EB%9D%BC%EC%A1%8C%EB%8B%A4%EB%A5%BC%20%EC%9D%BD%EA%B3%A0.md)|한다현|
 |[웹 성능 최적화 - 이미지 사이즈 최적화](https://github.com/mint-sstudy/2021-winter-writing-study/blob/main/week1/%EC%9D%B4%EB%AF%B8%EC%A7%80_%EC%82%AC%EC%9D%B4%EC%A6%88_%EC%B5%9C%EC%A0%81%ED%99%94.md)|서연주|
-|Devfest University 2021 후기|김도은|
+|[Devfest University 2021 후기](https://github.com/mint-sstudy/2021-winter-writing-study/blob/main/week1/DevFest%20University%202021%20%ED%9B%84%EA%B8%B0.md)|김도은|
