@@ -47,6 +47,7 @@ ex. cube의 layer을 water로 하고 Main Camera의 object의 인스펙터 창�
 ### Scripts
 - 파일 이름 대문자로 시작, 띄어쓰기 없음
 ![](https://images.velog.io/images/kkily55/post/444b1b0e-f8dd-449a-89c9-5617156ce364/image.png)
+
 MonoBehavior : Start(초기상태), Update(매 프레임마다 실행) 등 유니티에서 자체적으로 제공하는 함수들을 담은 클래스
 ```
 using System.Collections;
@@ -99,6 +100,7 @@ public class Test : MonoBehaviour
 ```
 
 moveSpeed*this.transform.right * Time.deltaTime
+
 //움직이는 속도 * 정규화 벡터(방향만을 알려줌, right인 경우 newVector3(1,0,0) ,up인경우 newVector3(0,1,0),forward인 경우 newVector3(0,0,1))
 
 ## part3 리지드바디
@@ -106,15 +108,15 @@ moveSpeed*this.transform.right * Time.deltaTime
 Rigidbody: 물리효과를 구현해줌
 ***
 
-Use Gravity: 중력효과
-Mass: 질량, 큰 쪽이 작은 쪽을 밀어버림
-Drag: 저항, 0일때는 빨리 떨어지고 10일 때는 천천히 떨어짐
-Angular Drag: 회전값에 대한 저항, 빠르게 움직높으면 빠르게 회적이 멈춤
-Is Kinematic: 물리효과를 없앰 , 체크하면 중력 등 적용 x
-Interpolate: 이전 프레임의 움직임을 통해 다음 프레임을 만들면서 움직임을 자연스럽게 만듦
-Extrapolate: 다음 프레임의 움직임을 예측해서 움직임을 자연스럽게 만듦
-Collision Detection: 충돌 탐지, Continuous는 매우 빠른 애(예: 총알)에게 적용하면 좋음
-Constraints: Position과 Rotation 고정
+- Use Gravity: 중력효과
+- Mass: 질량, 큰 쪽이 작은 쪽을 밀어버림
+- Drag: 저항, 0일때는 빨리 떨어지고 10일 때는 천천히 떨어짐
+- Angular Drag: 회전값에 대한 저항, 빠르게 움직높으면 빠르게 회적이 멈춤
+- Is Kinematic: 물리효과를 없앰 , 체크하면 중력 등 적용 x
+- Interpolate: 이전 프레임의 움직임을 통해 다음 프레임을 만들면서 움직임을 자연스럽게 만듦
+- Extrapolate: 다음 프레임의 움직임을 예측해서 움직임을 자연스럽게 만듦
+- Collision Detection: 충돌 탐지, Continuous는 매우 빠른 애(예: 총알)에게 적용하면 좋음
+- Constraints: Position과 Rotation 고정
 
 ```
 using System.Collections;
